@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.wrap {
+  display: flex;
+  padding: 20px;
+  width: 200px;
+  border-radius: 6px;
+  border: solid rgb(238, 165, 165);
+  text-align: center;
+  margin: auto;
+}
+.profile {
+  align-items: center;
+}
+.avatar {
+  display: flex;
+  border: solid blue;
+  border-radius: 50%;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.profile button {
+  background-color: black;
+  border-radius: 6px;
+  color: white;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}

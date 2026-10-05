@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+.box a {
+  color: white;
+  text-decoration: none;
+}
+.box {
+  width: 100px;
+  background-color: blue;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 10px;
+}
+p {
+  display: none;
+}
+.tag {
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 5px;
+  display: block;
+  width: 100px;
+  background-color: rgb(233, 233, 122);
+  text-align: center;
+}
